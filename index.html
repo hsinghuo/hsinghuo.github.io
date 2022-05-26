@@ -215,7 +215,22 @@ Applying social determinants to improve algorithmic fairness/interpretability us
 <footer>
   <div class="wrapper">
     &copy; 2022 by Xingyue Huo  |   
-	  <body onload="myFunction()">
+   <body onload="myFunction()">
+		  <span id="demo"></span>
+          
+		  <script>function myFunction() {
+  let lastMod = new Date(document.lastModified);
+  let month = lastMod.getMonth();
+  let year = lastMod.getFullYear();
+  let lastModStr =  month + '/' + year;
+  document.getElementById("demo").textContent = "Last updated :  " + lastModStr;
+}
+		  </script>
+          </body>
+	  
+	  
+	  
+<!--	  <body onload="myFunction()">
 		  Last updated: <span id="demo"></span>
 		  <script>function myFunction() {
 				  var x = document.lastModified;
@@ -224,6 +239,7 @@ Applying social determinants to improve algorithmic fairness/interpretability us
 			  }
 		  </script>
 	  </body>
+-->
    </div>
 </footer>
 
