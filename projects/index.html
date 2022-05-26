@@ -113,7 +113,8 @@
   <script>
     function myFunction() {
       var x = document.lastModified;
-      document.getElementById("demo").innerHTML = x;
+     let str = x.toLocaleDateString("en-US",{year: 'numeric', month: "long"})
+      document.getElementById("demo").innerHTML = str;
     }
   </script>
 </body>
