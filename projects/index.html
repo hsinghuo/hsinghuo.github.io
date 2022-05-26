@@ -88,16 +88,15 @@
 </div>
 <hr />	  
 
-<h4>test version 2</h4>
+<a href="/projects/new_project/">
+			<h4>test version 2</h4>
+</a>
 <div class="section group">
 	<div class="col span_1_of_3">
             <img class="thumbnail" src="/assets/paper_img/collaborative.png" />
 	</div>
 	
 	<div class="col span_2_of_3">
-		<a href="/projects/new_project/">
-			<h4>test version 2</h4>
-		</a>
             As the technologies for virtual and augmented reality improve, we can exploit such immersive spaces for visualizing and analyzing data. We are developing novel applications and techniques for displaying and analyzing 3D scientific and medical data, and are studying how immersive modalities affect the ways that users interact with such data, and also how they affect collaboration between multiple people.
 	</div>
 </div>
@@ -129,8 +128,6 @@
 
   
 
-  
-
 </div>
 
       </div>
@@ -139,13 +136,13 @@
     <footer>
 
   <div class="wrapper">
-   &copy; 2022 by Xingyue Huo | 
+   &copy; <span id="year"></span> by Xingyue Huo  |   
 	  <body onload="myFunction()">
-  Last updated time <span id="demo"></span>
+  Last updated: <span id="demo"></span>
   <script>
     function myFunction() {
       var x = new date (document.lastModified);
-      document.getElementById("demo").innerHTML = x;
+      document.getElementById("demo").innerHTML = x.getMonth()+1;
     }
   </script>
 </body>
