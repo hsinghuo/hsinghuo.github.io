@@ -214,7 +214,17 @@ Applying social determinants to improve algorithmic fairness/interpretability us
     <footer>
 
   <div class="wrapper">
-    &copy; 2022 by Xingyue Huo
+    &copy; 2022 by Xingyue Huo  |   
+	  <body onload="myFunction()">
+  Last updated: <span id="demo"></span>
+  <script>
+    function myFunction() {
+      var x = document.lastModified;
+     let str = x.toLocaleDateString("en-US",{year: 'numeric', month: "long"});
+      document.getElementById("demo").innerHTML = str;
+    }
+  </script>
+</body>
 
   </div>
 
