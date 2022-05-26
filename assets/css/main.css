@@ -63,7 +63,7 @@ img { max-width: 100%; }
 svg { max-height: 100%; }
 
 /* Basscss Base Typography */
-body { font-family: Helvetica, Arial, sans-serif; line-height: 1.5; font-size: 100%; }
+body { font-family: Helvetica, Arial, sans-serif; line-height: 1.5; font-size: 90%; }
 
 h1, h2, h3, h4, h5, h6 { font-family: Helvetica, sans-serif; font-weight: 900; line-height: 1.25; margin-top: 1em; margin-bottom: .5em; }
 
@@ -534,7 +534,7 @@ table > thead > tr > th { vertical-align: bottom; border-bottom: 2px solid #333;
 table > caption + thead > tr:first-child > th, table > caption + thead > tr:first-child > td, table > colgroup + thead > tr:first-child > th, table > colgroup + thead > tr:first-child > td, table > thead:first-child > tr:first-child > th, table > thead:first-child > tr:first-child > td { border-top: 0; }
 table > tbody + tbody { border-top: 2px solid #333; }
 
-html { font-size: 12px; }
+html { font-size: 16px; }
 
 body { color: #666; font-weight: 100; }
 
